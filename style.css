@@ -22,11 +22,23 @@ main {
 .section-title {
     font-size: 1.75rem;
     font-weight: 800;
+    margin-bottom: 10px;
+}
+.box-title{
+    font-weight: 700;
+    font-size: 1.10rem;
+    margin-bottom: 10px;
 }
 
 .description {
     font-size: 0.80rem;
     color: #131318B3;
+}
+.primary-content{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .btn-primery {
@@ -142,17 +154,6 @@ main {
 
 /* Choose Your Destination section start */
 
-.destination-content {
-    width: 500px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-
-.destination-title {
-    margin-bottom: 10px;
-}
-
 .img1 {
     width: 50%;
 }
@@ -194,18 +195,32 @@ main {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 70px;
-
 }
 
-/* .destination-images{
-    width: 100%;
-    margin: 0 auto;
-    
-}
-.destination-images img{
-    width: 30%;
-} */
 /* Choose Your Destination section end */
+
+/* why choose us section start */
+
+.chooseus-first-col{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.chooseus-box{
+    width: 400px;
+    background-color: #29CEF60D;
+    padding: 15px;
+}
+.hotel,
+.location,
+.discount{
+    width: 80px;
+    margin: 0;
+}
+
+
+
+/* why choose us section end */
 
 
 
@@ -238,10 +253,6 @@ main {
     .thired-coloum img{
         width: 100%;
     }
-    /* .destination-images{
-        align-items: center;
-        justify-content: center;
-    } */
 }
 
 /* Mobile device end*/
