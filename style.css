@@ -1,45 +1,75 @@
-body{
+body {
     font-family: "Anta", sans-serif;
 }
-header, main{
+
+header,
+main {
     max-width: 900px;
     margin: 0 auto;
 }
+
 /* shared style start */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.primary-orange{
+
+.primary-orange {
     color: #FF5400;
+}
+.section-title{
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.description{
+    font-size: 0.80rem;
+    color: #131318B3;
+}
+.btn-primery{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 1.20;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 /* shared style end */
 
 /* header section start */
-.nav-container{
+
+/* nav section start */
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
-.nav-img{
+
+.nav-img {
     width: 50px;
 }
-.web-name{
+
+.web-name {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.nav-title{
-    font-size: 2rem;
+
+.nav-title {
+    font-size: 2.50rem;
     font-weight: 800;
     color: #131313;
 }
-.nav-ber ul{
+
+.nav-ber ul {
     display: flex;
     align-items: center;
 }
-.nav-ber li{
+
+.nav-ber li {
     list-style: none;
     margin-right: 20px;
     font-size: 1rem;
@@ -48,4 +78,49 @@ header, main{
     color: #131313;
 }
 
+/* nav section end */
+
+/* banner section start */
+.banner-img {
+    background-image: url('./Images/group13.png');
+    width: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/* banner section end */
+
 /* header section end */
+
+/* popular tour section start */
+.popular-tour-container{
+    display: flex;
+    justify-content: space-around;
+}
+.popular-content{
+    max-width: 470px;
+    
+}
+.popular-title{
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-description{
+    margin: 20px 0;
+}
+.popular-tour-list{
+    font-size: 0.80rem;
+    color: #131318B3;
+    margin: 20px 25px;
+}
+.popular-tour-list li{
+    margin: 20px 0;
+}
+.popular-img{
+    width: 400px;
+}
+/* popular tour section end */
